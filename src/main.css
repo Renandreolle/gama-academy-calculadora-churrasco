@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(118, 60, 183);
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+header {
+    padding-top: 5vh;
+    text-align: center;
+    height: 30vh;
+    
+}
+
+#botaoCalcular {
+    text-align: center;
+    color:  rgb(94, 46, 146);
+    background: linear-gradient(rgb(125,211,86),rgb(118,215,73));
+    border: 1px rgb(103,140,99);
+    margin-bottom: 3vh;
+    font-weight: bold;
+    width: 20vw;
+}
+
+.content {
+    background-color: rgb(94, 46, 146);
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.results {
+    text-align: center;
+    background-color: rgb(163,121,193);
+    height: 20vh;
+    font-weight: bold;
+}
+
+.inputs {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 0;
+    background-color: rgb(94, 46, 146);
+    color: white;
+    font-weight: bold;
+}
+
+h1,h4 {
+    font-family:'Lobster';
+    text-shadow:2px 2px darkslategray;
+}
+
+h5 {
+    font-family: "Apple Braille",cursive;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}
